@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Listbox } from "@headlessui/react";
 import { ChevronUpDownIcon } from "@heroicons/react/24/solid";
-import BarChart from "./components/BartChart";
+import BarChart from "./components/BarChart";
 import bkkPopulationGrowthData from "./data/db.json";
 
 function App() {

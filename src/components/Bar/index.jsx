@@ -1,4 +1,4 @@
-import chartClass from "../BartChart/BarChart.module.css";
+import chartClass from "../BarChart/BarChart.module.css";
 import barClass from "./Bar.module.css";
 function Bar({ year, value, partition, minVal, maxVal }) {
   const { negBarWidth, posBarWidth } = partition;
