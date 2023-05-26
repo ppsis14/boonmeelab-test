@@ -1,0 +1,43 @@
+.chart_container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-rows: max-content;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.chart_boundary {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+
+.label_box {
+  width: 100%;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+}
+
+.boundary_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.1rem;
+  grid-column: span 14;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .label_box {
+    grid-column: span 1;
+  }
+  .boundary_box {
+    grid-column: span 15;
+  }
+}
